@@ -1,4 +1,3 @@
-require('dotenv').config();
 const { getWaveData } = require('../lib/waves');
 const { sendWhatsApp } = require('../lib/whatsapp');
 const beaches = require('../beaches');
